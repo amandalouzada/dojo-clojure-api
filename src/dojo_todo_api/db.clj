@@ -8,3 +8,5 @@
    "id-list-2" {:title "Performance Cycle"
                 :items {"id-item-1" {:title "Feedback Qulture Rocks 🤟" :done? false}
                         "id-item-2" {:title "Self Assessment 🤯" :done? false}}}})
+
+(defonce local-database (atom {}))
